@@ -21,11 +21,11 @@ def minOperations(n):
     if n < 2:
         return 0
     while (index < n + 1):
-        # Check if number is even
+        # check if problem can be broken into smaller problem
         while n % index == 0:
-            # add number to the result
+            # if yes then add no of smaller problems to result
             result += index
-            # Create number to get to n
+            # create smaller problem
             n /= index
         index += 1
     return result

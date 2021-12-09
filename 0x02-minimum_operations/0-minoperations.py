@@ -6,7 +6,8 @@ the fewest number of operations needed to result in
 exactly n H characters in the file.
 Example:
 n = 9
-H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH => Paste => HHHHHHHHH
+H => Copy All => Paste => HH => Paste =>HHH =>
+Copy All => Paste => HHHHHH => Paste => HHHHHHHHH
 Number of operations: 6
 '''
 

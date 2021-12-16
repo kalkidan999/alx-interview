@@ -36,7 +36,7 @@ if __name__ == "__main__":
                     code[fact[-2]] += 1
                 """ If there is a lenght """
                 sum += int(fact[-1])
-            except:
+            except ValueError:
                 pass
             """ Printing control """
             cnt += 1

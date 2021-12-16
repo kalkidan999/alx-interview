@@ -27,16 +27,16 @@ def print_stats():
 if __name__ == "__main__":
     cnt = 0
     try:
-        """ Iter the standar input """
+        """ Iterate the standard input """
         for data in sys.stdin:
             try:
                 fact = data.split(' ')
                 """ If there is a status code """
                 if fact[-2] in code:
                     code[fact[-2]] += 1
-                """ If there is a lenght """
+                """ If there is a length """
                 sum += int(fact[-1])
-            except ValueError:
+            except Exception:
                 pass
             """ Printing control """
             cnt += 1

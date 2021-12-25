@@ -11,6 +11,6 @@ def validUTF8(data):
         return True
     try:
         bytes(data).decode('utf-8')
-    except:
+    except BaseException:
         return False
     return True
